@@ -1,16 +1,10 @@
 # vegas_point_portal
 
-A new Flutter project.
+flutter web use for check points, vouchers, users's info only FOR STAFF 
+![Screenshot 2025-04-09 at 4 46 48 PM](https://github.com/user-attachments/assets/4c2905b9-cc13-4a48-b400-173e405f35e7)
 
-## Getting Started
+![Screenshot 2025-04-09 at 4 47 07 PM](https://github.com/user-attachments/assets/3e95b5b6-a5db-4c2b-aaae-a6ae5cc2f0c5)
+![Screenshot 2025-04-09 at 4 46 59 PM](https://github.com/user-attachments/assets/18230624-ffd8-4c9d-b39b-88393c23319f)
+![Screenshot 2025-04-09 at 4 46 55 PM](https://github.com/user-attachments/assets/b9f45567-6e0f-4485-920a-76875683b2a9)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
