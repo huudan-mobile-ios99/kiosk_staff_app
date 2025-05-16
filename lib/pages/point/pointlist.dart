@@ -48,14 +48,14 @@ class _PointListState extends State<PointList> {
         id: 5,
         value: 5000,
         valueString: '7,000',
-        range: '70,000 - 10,000 pts',
+        range: '70,000 - 100,000 pts',
         range1: 70000,
         range2: 99999),
     ItemList(
         id: 6,
         value: 10000,
         valueString: '10,000',
-        range: '100,000 - 100,000 pts',
+        range: '100,000 - 150,000 pts',
         range1: 100000,
         range2: 149999),
     ItemList(
