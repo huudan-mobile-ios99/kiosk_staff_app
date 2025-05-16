@@ -20,64 +20,71 @@ class _PointListState extends State<PointList> {
         id: 1,
         value: 1000,
         valueString: '1,000',
-        range: '10,000 - 19,999 pts',
+        range: '10,000 - 20,000 pts',
         range1: 10000,
         range2: 19999),
     ItemList(
         id: 2,
         value: 2000,
         valueString: '2,000',
-        range: '20,000 - 29,999 pts',
+        range: '20,000 - 30,000 pts',
         range1: 20000,
         range2: 29999),
     ItemList(
         id: 3,
         value: 3000,
         valueString: '3,000',
-        range: '30,000 - 49,999 pts',
+        range: '30,000 - 50,000 pts',
         range1: 30000,
         range2: 49999),
     ItemList(
         id: 4,
         value: 5000,
         valueString: '5,000',
-        range: '50,000 - 69,999 pts',
+        range: '50,000 - 70,000 pts',
         range1: 50000,
         range2: 69999),
     ItemList(
         id: 5,
         value: 5000,
         valueString: '7,000',
-        range: '70,000 - 99,999 pts',
+        range: '70,000 - 10,000 pts',
         range1: 70000,
         range2: 99999),
     ItemList(
         id: 6,
         value: 10000,
         valueString: '10,000',
-        range: '100,000 - 149,999 pts',
+        range: '100,000 - 100,000 pts',
         range1: 100000,
         range2: 149999),
     ItemList(
         id: 7,
         value: 15000,
         valueString: '15,000',
-        range: '150,000 - 199,999 pts',
+        range: '150,000 - 200,000 pts',
         range1: 150000,
         range2: 199999),
     ItemList(
         id: 8,
         value: 20000,
         valueString: '20,000',
-        range: 'above 200,000 pts',
+        range: '200,000 - 300,000 pts',
         range1: 200000,
         range2: 299999),
     ItemList(
         id: 9,
         value: 30000,
         valueString: '30,000',
-        range: 'above 300,000 pts',
+        range: '300,000 - 500,000 pts',
         range1: 300000,
+        range2: 499999),
+    ItemList(
+        id: 10,
+        value: 50000,
+        valueString: '50,000',
+        range: '> 500,000 pts',
+        range1: 500000,
         range2: 10000000),
   ];
   @override
@@ -149,8 +156,7 @@ class _PointListState extends State<PointList> {
                         vertical: StringFactory.padding4,
                         horizontal: StringFactory.padding16),
                     decoration: BoxDecoration(
-                      color: comparePoint(widget.point, itemList[index].range1,
-                              itemList[index].range2)
+                      color: comparePoint(widget.point, itemList[index].range1,itemList[index].range2)
                           ? MyColor.yellow2
                           : MyColor.white,
                       borderRadius:
